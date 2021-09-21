@@ -2,7 +2,7 @@
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" href="./index.php?content=home">Vegetable Juice</a>
+  <a class="navbar-brand" href="./index.php?content=home">Restaurant George</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,8 +44,8 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
                 </li>';
         }
       ?> 
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=juices">juices</a>
+      <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=smoothies">smoothies</a>
