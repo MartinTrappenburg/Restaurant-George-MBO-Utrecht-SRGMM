@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon">
-    <title>Vegetable Juice</title>
+    <title>Restaurant George</title>
   </head>
   <body>
     <main>
