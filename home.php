@@ -1,4 +1,4 @@
-<div class="row mt-3">
+<!--<div class="row mt-3">
   <div class="col-6  col-sm-3 col-md-3">
     <div class="card">
       <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
@@ -41,7 +41,7 @@
   </div>
 </div>
 
-<div class="row">
+<!--div class="row">
   <div class="col-3">
     <div class="card">
       <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
@@ -83,7 +83,7 @@
     </div>
   </div>
 </div>
-
+-->
 <!-- <div class="card-deck mt-4 pt-0">
   <div class="card">
     <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
