@@ -1,3 +1,3 @@
 <div id="footer">
-  == copyright rra ==
+  == Restaurant George MBO Utrecht Kanaleneiland==
 </div>

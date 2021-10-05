@@ -1,121 +1,29 @@
-<!--<div class="row mt-3">
-  <div class="col-6  col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Guave</h5>
-        <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-        <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
-      </div>
+<div class="row">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="./img/R.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Our newest location</h4>
+      <p class="card-text">Fine cuisine, of all kinds...</p>
+      <a href="#" class="btn btn-primary">Learn more at our menu-</a>
     </div>
   </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-      <div class="card-body">
-        <h5 class="card-title">Granaatappel</h5>
-        <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-        <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-      <div class="card-body">
-        <h5 class="card-title">Papaya</h5>
-        <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-        <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Passievrucht</h5>
-        <p class="card-text">Passievrucht komt uit Paraguay</p>
-        <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!--div class="row">
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Guave</h5>
-        <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-        <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-      <div class="card-body">
-        <h5 class="card-title">Granaatappel</h5>
-        <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-        <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-      <div class="card-body">
-        <h5 class="card-title">Papaya</h5>
-        <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-        <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Passievrucht</h5>
-        <p class="card-text">Passievrucht komt uit Paraguay</p>
-        <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-</div>
--->
-<!-- <div class="card-deck mt-4 pt-0">
-  <div class="card">
-    <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
+  <div class="card" style="width:400px">
     <div class="card-body">
-      <h5 class="card-title">Guave</h5>
-      <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-      <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
+      <h4 class="card-title">Luxury dining</h4>
+      <p class="card-text">From the george you are familiar with...</p>
+    </div>
+    <img class="card-img-bottom" src="./img/george.jpg" alt="Card image2">
+  </div>
+
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="./img/personeel.jpeg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Ready to serve you</h4>
+      <p class="card-text">Always with a georgeous smile in tough times :)</p>
+      <a href="#" class="btn btn-primary">Our covid regulations</a>
     </div>
   </div>
-  <div class="card">
-    <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-    <div class="card-body">
-      <h5 class="card-title">Granaatappel</h5>
-      <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-      <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-    <div class="card-body">
-      <h5 class="card-title">Papaya</h5>
-      <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-      <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-    <div class="card-body">
-      <h5 class="card-title">Passievrucht</h5>
-      <p class="card-text">Passievrucht komt uit Paraguay</p>
-      <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-    </div>
-  </div> -->
+
 
 </div>

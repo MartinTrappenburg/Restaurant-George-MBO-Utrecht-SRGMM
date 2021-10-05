@@ -48,16 +48,16 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=smoothies">smoothies</a>
+        <a class="nav-link" href="./index.php?content=smoothies">placeholder1</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          health education
+        placeholder2
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=sleep">sleep</a>
-          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">nutrition</a>
-          <a class="dropdown-item <?php echo ($active == "exercise") ? "active" : "" ?>" href="./index.php?content=exercise">exercise</a>
+          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=sleep">placeholder3</a>
+          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">placeholder4</a>
+          <a class="dropdown-item <?php echo ($active == "exercise") ? "active" : "" ?>" href="./index.php?content=exercise">placeholder5</a>
         </div>
       </li>
     </ul>
