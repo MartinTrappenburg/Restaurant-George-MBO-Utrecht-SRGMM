@@ -31,6 +31,17 @@ body {
     text-align: center;
 }
 
+#a {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+}
 
-h1, h6 {text-align: center;}
-h1, h5, h6 {font-family:'Times New Roman', Times, serif}
+#b {
+    border-right: 1px solid black;
+    margin: 2%;
+}
+
+#c {
+    margin: 2%;
+}

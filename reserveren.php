@@ -12,9 +12,9 @@
 </div>-->
 
 
-<div id="jimbob" class="w-25 position-relative">
+<div id="jimbob" class="w-25 position-relative center">
   <div class="form-outline datepicker">
-    <label for="exampleDatepicker1" class="form-label">Selecteer uw gewenste datum.</label>
+    <label for="exampleDatepicker1" class="form-label"><h4>Selecteer uw gewenste datum.</h4></label>
     <input type="date" class="form-control" id="exampleDatepicker1">
   </div>
   <br>
@@ -36,12 +36,10 @@
   </select>
   <br>
   <br>
-  <input type="checkbox" name="agree1" id="" required>Ik accepteer de privacy overeenkomst</input> <br>
-  <input type="checkbox" name="agree2" id="" required>Ik accepteer de algemene voorwaarden</input><br>
-  <input type="checkbox" name="agree3" id="">Ik wil de nieuwsbrief ontvangen</input>
+  <input type="checkbox" name="agree1" id="" required><p3>Ik accepteer de privacy overeenkomst</p3></input> <br>
+  <input type="checkbox" name="agree2" id="" required><p3>Ik accepteer de algemene voorwaarden</p3></input><br>
+  <input type="checkbox" name="agree3" id=""><p3>Ik wil de nieuwsbrief ontvangen</p3></input>
   <br>
   <br>
-  <button type="button" class="btn btn-dark">Reserveer!</button>
-
-
+  <button type="button" class="btn btn-dark"><h4>Reserveer!</h4></button>
 </div>
