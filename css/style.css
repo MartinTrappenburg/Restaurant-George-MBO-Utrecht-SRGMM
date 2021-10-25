@@ -93,6 +93,11 @@ h3 {
     width: 50%;
 }
 
+.map-css {
+    width: absolute;
+    position: center;
+}
+
 #jimbob {
     margin-left: 40% !important;
     margin-top: 5% !important;  
