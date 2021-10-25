@@ -1,4 +1,94 @@
-.map-css {
-    width: absolute;
-    position: center;
+body {
+    margin: 0;
+}
+
+#container {
+    width: 50vw;
+    height: 70vh;
+
+    max-width: 1140px;
+    min-width: 760px;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: 1px solid black;
+}
+
+#container2 {
+    width: 50vw;
+    height: 28vh;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    border-bottom: 1px solid black;
+}
+
+#contact-second {
+    margin: 5%;
+    padding: 5%;
+    border-top: 1px solid black;
+}
+
+#contact-first {
+    margin: 5%;
+    padding: 5%;
+}
+
+#contact-map {
+    margin: 3%;
+    padding-left: 2vh;
+    border-left: 1px solid black;
+    grid-row: span 2;
+}
+
+#newsletter {
+    margin: 5%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+#social {
+    margin: 5%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+#picture2 {
+    margin: 5%;
+    padding: 5%;
+}
+
+p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 0.8vw;
+}
+
+p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+p3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8vw;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4vw;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
 }
