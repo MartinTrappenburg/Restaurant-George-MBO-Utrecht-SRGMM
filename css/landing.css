@@ -1,0 +1,47 @@
+.l1 {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5px;
+    background-color:#000;
+    opacity: 0.5;}
+.l2 {
+    position: fixed;
+    top: 550px;
+    right: 525px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;height: 1.5px;
+    background-color:#000;
+    opacity: 0.5; transform: rotate(90deg);
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+  
+
+.b, .c{
+    text-align: center;
+}
+
+#a {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+}
+
+#b {
+    border-right: 1px solid black;
+    margin: 2%;
+}
+
+#c {
+    margin: 2%;
+}
