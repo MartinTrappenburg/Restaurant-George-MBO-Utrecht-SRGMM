@@ -1,8 +1,140 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 50vw;
+    height: 70vh;
+
+    max-width: 1140px;
+    min-width: 760px;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: 1px solid black;
+}
+
+#contact-second {
+    margin: 5%;
+    padding: 5%;
+    border-top: 1px solid black;
+}
+
+#contact-first {
+    margin: 5%;
+    padding: 5%;
+}
+
+#contact-map {
+    margin: 3%;
+    padding-left: 2vh;
+    border-left: 1px solid black;
+    grid-row: span 2;
+}
+
+#containerbookevent {
+    width: 50vw;
+    height: 70vh;
+
+    max-width: 1140px;
+    min-width: 760px;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: 1px solid black;
+}
+
+#bookevent1 {
+    margin: 2%;
+    padding: 2%;
+}
+
+#bookevent2 {
+    margin: 2%;
+    padding: 2%;
+    border-left: 1px solid black;
+}
+
+#bookevent3 {
+    border-top: 1px solid black;
+    margin: 2%;
+    padding: 2%;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#newsletter {
+    margin: 5%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+#social {
+    margin: 5%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+#picture2 {
+    margin: 5%;
+    padding: 5%;
+}
+
+p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 0.8vw;
+}
+
+p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+p3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8vw;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4vw;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8vw;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
 .map-css {
     width: absolute;
     position: center;
-    
+
 #jimbob {
     margin-left: 40% !important;
     margin-top: 5% !important;  
+}
+
+#register_page {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 40%;
+    max-width: fit-content;
+    border-right: 1px solid black;
+    padding-right: 2%;
 }
