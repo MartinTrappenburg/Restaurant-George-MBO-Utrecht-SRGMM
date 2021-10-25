@@ -144,3 +144,34 @@ h4 {
     padding: 7px;
 }
 
+#aboutuscontainer {
+    width: 30vw;
+    height: 70vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#aboutus1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+}
+
+#aboutus2 {
+    border-bottom: 1px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#aboutus3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#containercorona {
+
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
