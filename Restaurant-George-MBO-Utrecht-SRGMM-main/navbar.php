@@ -2,7 +2,8 @@
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand ms-auto" href="./index.php?content=home">Restaurant George</a>
+<img src="./img/MBO_Utrecht.png" width="30" height="30" alt="">
+  <a class="navbar-brand ms-auto" href="./index.php?content=home"> Restaurant George</a>
   <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,16 +49,15 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=smoothies">smoothies</a>
+        <a class="nav-link" href="./index.php?content=smoothies">corona-beleid</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          health education
+          over ons
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=sleep">sleep</a>
-          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">nutrition</a>
-          <a class="dropdown-item <?php echo ($active == "exercise") ? "active" : "" ?>" href="./index.php?content=exercise">exercise</a>
+          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=sleep">menu</a>
+          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">achtergrond</a>
         </div>
       </li>
     </ul>
