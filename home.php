@@ -1,121 +1,39 @@
-<!--<div class="row mt-3">
-  <div class="col-6  col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Guave</h5>
-        <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-        <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-      <div class="card-body">
-        <h5 class="card-title">Granaatappel</h5>
-        <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-        <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-      <div class="card-body">
-        <h5 class="card-title">Papaya</h5>
-        <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-        <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6 col-sm-3 col-md-3">
-    <div class="card">
-      <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Passievrucht</h5>
-        <p class="card-text">Passievrucht komt uit Paraguay</p>
-        <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-</div>
+<html>
+<head>
+<link rel="stylesheet" href="./css/landing.css"></link>
+</head>
+<body>
 
-<!--div class="row">
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Guave</h5>
-        <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-        <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-      <div class="card-body">
-        <h5 class="card-title">Granaatappel</h5>
-        <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-        <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-      <div class="card-body">
-        <h5 class="card-title">Papaya</h5>
-        <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-        <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-3">
-    <div class="card">
-      <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-      <div class="card-body">
-        <h5 class="card-title">Passievrucht</h5>
-        <p class="card-text">Passievrucht komt uit Paraguay</p>
-        <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-      </div>
-    </div>
-  </div>
-</div>
--->
-<!-- <div class="card-deck mt-4 pt-0">
-  <div class="card">
-    <img src="./img/home/guave.jpg" class="card-img-top" alt="guave">
-    <div class="card-body">
-      <h5 class="card-title">Guave</h5>
-      <p class="card-text">Guave wordt veel gebruikt in Guatamala</p>
-      <p class="card-text"><small class="text-muted">Laatste update 3 min geleden</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./img/home/granaatappel-4x3.jpg" class="card-img-top" alt="granaatappel">
-    <div class="card-body">
-      <h5 class="card-title">Granaatappel</h5>
-      <p class="card-text">Granaatappel komt oorspronkelijk uit Iran</p>
-      <p class="card-text"><small class="text-muted">Laatste update 2 min geleden</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./img/home/papaya-large.jpg" class="card-img-top" alt="papaya">
-    <div class="card-body">
-      <h5 class="card-title">Papaya</h5>
-      <p class="card-text">Papaya komt oorspronkelijk uit het zuiden van Mexico</p>
-      <p class="card-text"><small class="text-muted">Laatste update 7 min geleden</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./img/home/passievrucht-4x3.jpg" class="card-img-top" alt="guave">
-    <div class="card-body">
-      <h5 class="card-title">Passievrucht</h5>
-      <p class="card-text">Passievrucht komt uit Paraguay</p>
-      <p class="card-text"><small class="text-muted">Laatste update 12 min geleden</small></p>
-    </div>
-  </div> -->
+<h1>GEORGE Utrecht</h1>
+<h6>Experience fine dining at our new location.</h6>
+<hr class="l1"></hr>
+<hr class="l2"></hr>
 
+
+  <div class="row">
+  <div class="col-sm right-border">
+      <h1 class="b">New, yet oddly familiar. <br>
+          That's how George does it in Utrecht <br>
+      </h1>
+      <h5 class="b">We have the same ‘je-ne-sais-quoi’ on our menu as in Amsterdam, with even more of our best dishes added!</h5>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">See what we have to offer on our menu</button>
+    </div>
+    <div class="col-sm">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-75" src="./img/R.jpg" alt="1">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-75" src="./img/george.jpg" alt="2">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-75" src="./img/personeel.jpeg" alt="3">
+    </div>
+  </div>
 </div>
+    </div>
+  </div>
+
+</body>
+</html>
