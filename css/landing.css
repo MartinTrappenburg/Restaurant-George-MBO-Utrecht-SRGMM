@@ -1,0 +1,36 @@
+.l1 {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5px;
+    background-color:#000;
+    opacity: 0.5;}
+.l2 {
+    position: fixed;
+    top: 550px;
+    right: 525px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;height: 1.5px;
+    background-color:#000;
+    opacity: 0.5; transform: rotate(90deg);
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+  
+
+.b, .c{
+    text-align: center;
+}
+
+
+h1, h6 {text-align: center;}
+h1, h5, h6 {font-family:'Times New Roman', Times, serif}
