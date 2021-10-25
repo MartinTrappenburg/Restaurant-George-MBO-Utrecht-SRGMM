@@ -124,6 +124,7 @@ h4 {
 .map-css {
     width: absolute;
     position: center;
+}
 
 #jimbob {
     margin-left: 40% !important;
@@ -137,4 +138,8 @@ h4 {
     max-width: fit-content;
     border-right: 1px solid black;
     padding-right: 2%;
+}
+
+.nav-item {
+    padding: 7px;
 }
