@@ -2,8 +2,7 @@
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-none"> <style>.navbar { font-family:'Times New Roman', Times, serif !important; }</style>
-<img src="./img/MBO_Utrecht.png" width="30" height="30" alt="">
-  <a class="navbar-brand ms-auto" href="./index.php?content=home"> Restaurant George</a>
+  <a class="navbar-brand ms-auto" href="./index.php?content=home"> RESTAURANT GEORGE </a>
   <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,49 +13,49 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           switch ($_SESSION["userrole"]) {
             case 'admin':
               echo '<li class="nav-item '; echo (in_array($active, ["a-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=a-home">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=a-home">HOME <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'root':
               echo '<li class="nav-item '; echo (in_array($active, ["r-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=r-home">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=r-home">HOME <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'customer':
               echo '<li class="nav-item '; echo (in_array($active, ["c-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=c-home">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=c-home">HOME <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'moderator':
               echo '<li class="nav-item '; echo (in_array($active, ["m-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=m-home">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=m-home">HOME <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             default:
               echo '<li class="nav-item '; echo (in_array($active, ["home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=home">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=home"> HOME <span class="sr-only">(current)</span></a>
                     </li>';
             break;
 
           }
         } else {
           echo '<li class="nav-item '; echo (in_array($active, ["home", ""])) ? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=home">home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./index.php?content=home">HOME <span class="sr-only">(current)</span></a>
                 </li>';
         }
       ?> 
       <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
+        <a class="nav-link" href="./index.php?content=reserveren">RESERVEREN</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=smoothies">corona-beleid</a>
+        <a class="nav-link" href="./index.php?content=coronabeleid">CORONA BELEID</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          over ons
+          OVER ONS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=sleep">menu</a>
+          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=contactpage">contact</a>
           <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">achtergrond</a>
         </div>
       </li>
@@ -94,14 +93,14 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
             break;
           }
           echo '<li class="nav-item '; echo ($active == "logout") ? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
+                  <a class="nav-link" href="./index.php?content=logout">UITLOGGEN</a>
                 </li>';
         } else {
           echo '<li class="nav-item '; echo ($active == "register")? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=register">registreer</a>
+                  <a class="nav-link" href="./index.php?content=register">REGISTREER</a>
                 </li>
                 <li class="nav-item '; echo ($active == "login") ? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=login">inloggen</a>
+                  <a class="nav-link" href="./index.php?content=login">INLOGGEN</a>
                 </li>';
         }
       ?>    
