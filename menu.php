@@ -40,12 +40,12 @@
 		</div>
 		<div class="row">
 			<div class="column center">
-				<div class="cereal">
-					<p class="cereal-txt">CEREALS & FRUIT</p>
-					<div class="cereal-item1">
-						<p class="cereal-item1-txt"> FRENCH TOAST & FRUIT...10 </p>
+				<div>
+					<p class="eggs-txt">CEREALS & FRUIT</p>
+					<div>
+						<p1 class> FRENCH TOAST & FRUIT...10 </p1>
 					</div>
-					<div class="cereal-item2">
+					<div>
 						<ul type="none">
 							<li>
 								<p1>GREEK YOGHURT BOWL ...12</p1>
