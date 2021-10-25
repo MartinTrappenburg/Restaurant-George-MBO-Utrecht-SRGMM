@@ -21,7 +21,7 @@
                 <label for="privacy">Ik accepteer de privacy voorwaarden.</label>
             </div>
 
-            <button type="submit" class="btn btn-warning btn-lg btn-block">Registreer</button>
+            <button type="submit" class="btn btn-secondary btn-lg btn-block">Registreer</button>
         </form>
     </div>
 </body>
