@@ -27,7 +27,7 @@ p3 {
 
 .main-container {
     width: 1000px;
-    height: 4500px;
+    height: 100%;
     margin: 0px auto;
     background-color: white;
     box-shadow: 5px 10px 8px #888888;

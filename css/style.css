@@ -175,3 +175,27 @@ h4 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+
+#containerreserver {
+    width: 50vw;
+    height: 70vh;
+
+    max-width: 1140px;
+    min-width: 500px;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: 1px solid black;
+}
+
+#res1 {
+    margin: 2%;
+    padding: 2%;
+}
+
+#res2 {
+    margin: 2%;
+    padding: 2%;
+    border-left: 1px solid black;
+}
