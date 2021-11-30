@@ -65,6 +65,9 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=menu">MENU</a>
       </li>
+      <li class="nav-item <?php echo ($active == "roosters") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=roosters">ROOSTERS</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           OVER ONS
