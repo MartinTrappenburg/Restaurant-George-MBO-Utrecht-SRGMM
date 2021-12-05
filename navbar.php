@@ -68,18 +68,6 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=menu">MENU</a>
       </li>
-      <li class="nav-item <?php echo ($active == "recensie") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=rescensie">RECENSIE</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          OVER ONS
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=contactpage">contact</a>
-          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">achtergrond</a>
-        </div>
-      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <?php 
@@ -103,11 +91,20 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
             break;
             case 'moderator':
-              // Maak hier de hyperlinks voor de gebruikersrol moderator
+              echo '<li class="nav-item ';
+              echo $active == "moderatorpage" ? "active" : "";
+              echo '">
+                <a class="nav-link" href="./index.php?content=m-moderatorpage">moderatorpage</a>
+              </li>';
+              break;
 
             break;
-            case 'customer':
-              // Maak hier de hyperlinks voor de gebruikersrol customer
+            case 'student':
+              echo '<li class="nav-item ';
+              echo $active == "reserveren" ? "active" : "";
+              echo '">
+                <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
+              </li>';
 
             break;
             default:

@@ -17,15 +17,13 @@
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: scroll;
+
 }
 
 .carousel-inner img {
     margin: auto;
   }
-
-  
 
 .b, .c{
     text-align: center;
@@ -45,3 +43,4 @@ body {
 #c {
     margin: 2%;
 }
+
