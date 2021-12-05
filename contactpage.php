@@ -19,9 +19,11 @@
             <h3>CONTACT</h3>
             <p1>Spaklerweg 10A</p1>
             <p1>1096 BA Amsterdam</p1>
+            <br>
             <p1>+ 31 20 737 0280</p1>
             <p1>hello@georgemarina.nl</p1>
-            <p1>OPEN DAILY FROM 11A.M. TILL LATE</p1>
+            <br>
+            <p2>OPEN DAILY FROM 11A.M. TILL LATE</p2>
           </ul>
         </div>
         <div id="contact-map">
@@ -30,8 +32,9 @@
         <div id="contact-second">
           <ul class="list-group center">
             <h3>OPENING HOURS</h3>
-            <p1>We'll rock your boat at George Marina</p1>
+            <p2>OPEN MONDAY TO FRIDAY FROM 18.00 UNTIL 21.00</p2>
             <p1>On sunny days we have valet parking for a fee of €12,50 during lunch and €15 during dinner</p1>
+            <p2>Accessible by car, bicycle, helicopter, plane and more!</p2>
           </ul>
         </div>
       </div>

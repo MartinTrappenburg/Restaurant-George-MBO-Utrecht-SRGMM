@@ -84,11 +84,20 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 
             break;
             case 'moderator':
-              // Maak hier de hyperlinks voor de gebruikersrol moderator
+              echo '<li class="nav-item ';
+              echo $active == "moderatorpage" ? "active" : "";
+              echo '">
+                <a class="nav-link" href="./index.php?content=m-moderatorpage">moderatorpage</a>
+              </li>';
+              break;
 
             break;
-            case 'customer':
-              // Maak hier de hyperlinks voor de gebruikersrol customer
+            case 'student':
+              echo '<li class="nav-item ';
+              echo $active == "reserveren" ? "active" : "";
+              echo '">
+                <a class="nav-link" href="./index.php?content=reserveren">reserveren</a>
+              </li>';
 
             break;
             default:

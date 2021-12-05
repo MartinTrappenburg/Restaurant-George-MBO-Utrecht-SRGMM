@@ -102,6 +102,12 @@ p3 {
     font-size: 0.8vw;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
 h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -182,3 +188,10 @@ h4 {
     background-image: url(https://lh3.googleusercontent.com/proxy/aWeFEwQmey5Qc7nKN-g9s7uWqEFQ5VmCoJWuoG_rdOUPvlt2Vm5dG4bIuh_vkmpoVHyGA3AY168anM3Yg26z4_1jRMFAsf_FnKPhGibppDLvNo-KHPdW2E7wKbhSyj1Vv713MzTzLf6R1z8O7LSEhWabNsduv8M);
     transform: scaleX(-1);
 }
+
+#hometext {
+    border-bottom: 1px;
+}
+
+
+
