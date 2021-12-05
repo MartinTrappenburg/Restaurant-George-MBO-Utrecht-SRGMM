@@ -47,7 +47,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=reserveren">RESERVEREN</a>
       </li>
-        <a class="nav-link" href="./index.php?content=coronabeleid">CORONABELEID</a>
+        <a class="nav-link" href="./index.phcontent=coronabeleid">CORONABELEID</a>
       </li>
       <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=about-us">OVER ONS</a>
@@ -60,15 +60,6 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=contactpage">CONTACT</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle <?php echo (in_array($active, ["sleep", "nutrition", "exercise"])) ? "active" : "" ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          OVER ONS
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item <?php echo ($active == "sleep") ? "active" : "" ?>" href="./index.php?content=contactpage">contact</a>
-          <a class="dropdown-item <?php echo ($active == "nutrition") ? "active" : "" ?>" href="./index.php?content=nutrition">achtergrond</a>
-        </div>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
