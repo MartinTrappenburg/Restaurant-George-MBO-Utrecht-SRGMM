@@ -47,7 +47,8 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=reserveren">RESERVEREN</a>
       </li>
-        <a class="nav-link" href="./index.phcontent=coronabeleid">CORONABELEID</a>
+      <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=coronabeleid">CORONABELEID</a>
       </li>
       <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=about-us">OVER ONS</a>
@@ -59,7 +60,13 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         <a class="nav-link" href="./index.php?content=carreerpage">CARREER</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=recensies">RECENSIES</a>
+      </li>
+      <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=contactpage">CONTACT</a>
+      </li>
+      <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=menu">MENU</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">

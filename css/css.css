@@ -1,0 +1,248 @@
+* {
+    font-family: sans-serif;
+}
+body {
+
+}
+
+p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 0.8vw;
+}
+
+p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.6vw;
+    opacity: 0.8;
+}
+
+p3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8vw;
+}
+
+.main-container {
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.right {
+    right: 0;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-left: 450px;
+    font-size: 35px;
+}
+
+.menu-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.eggs {
+    font-size: 20px;
+}
+
+.eggs-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sandwiches {
+    font-size: 20px;
+}
+
+.sandwiches-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.clubs {
+    font-size: 20px;
+}
+
+.clubs-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.oysters {
+    font-size: 20px;
+}
+
+.oysters-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.croques {
+    font-size: 20px;
+}
+
+.croques-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.salads {
+    font-size: 20px;
+}
+
+.salads-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.lobster {
+    font-size: 20px;
+}
+
+.lobster-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.starters {
+    font-size: 20px;
+}
+
+.starters-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.pasta {
+    font-size: 20px;
+}
+
+.pasta-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.meat {
+    font-size: 20px;
+}
+
+.meat-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.fish {
+    font-size: 20px;
+}
+
+.fish-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.meatless {
+    font-size: 20px;
+}
+
+.meatless-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.kids {
+    font-size: 20px;
+}
+
+.kids-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.greens {
+    font-size: 20px;
+}
+
+.greens-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.potatoes {
+    font-size: 20px;
+}
+
+.potatoes-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.smallbites {
+    font-size: 20px;
+}
+
+.smallbites-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.cheese {
+    font-size: 20px;
+}
+
+.cheese-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.desserts {
+    font-size: 20px;
+}
+
+.desserts-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.dessertwine {
+    font-size: 20px;
+}
+
+.dessertwine-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.portwine {
+    font-size: 20px;
+}
+
+.portwine-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.daily {
+    font-size: 20px;
+}
+
+.daily-txt {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+
+  
+
