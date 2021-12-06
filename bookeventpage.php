@@ -22,7 +22,7 @@
             </div>
             <div id="bookevent2">
               <ul class="list-group center"> 
-                <h3>Hosting a private party for a special occasion?</h3> 
+                <h3>HOSTING A PRIVATE PARTY FOR A SPECIAL OCCASION?</h3> 
                 <p1> Your guests will love cosy Georgette at the P.C. Hooftstraat. Organizing a corporate event? Then George Marina is the perfect choice. Planning a press event or influencer lunch to boost your brand? George W.P.A. is an ideal, comfy spot. Either way, no matter which location you choose, we'll make sure you and your guests feel right at home.
                 </p1>
                 <h4>ANYTHING IS POSSIBLE. JUST ASK US ABOUT THE POSSIBILITIES.

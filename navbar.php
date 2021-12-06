@@ -2,7 +2,7 @@
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-none"> <style>.navbar { font-family:'Times New Roman', Times, serif !important; }</style>
-  <a class="navbar-brand ms-auto" href="./index.php?content=home"> RESTAURANT GEORGE </a>
+  <h5 class="navbar-brand ms-auto" href="./index.php?content=home"> RESTAURANT GEORGE </h5>
   <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

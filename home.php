@@ -1,7 +1,6 @@
 <html>
    <head>
       <link rel="stylesheet" href="./css/landing.css">
-      <link rel="stylesheet" href="./css/style.css">
       </link>
    </head>
    <body>

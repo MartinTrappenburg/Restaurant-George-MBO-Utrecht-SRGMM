@@ -5,8 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="./css/css.css"> </head>
+	<title>Document</title> </head>
 <style>
 * {
 	box-sizing: border-box;
@@ -36,12 +35,12 @@
 <body>
 	<div class="main-container">
 		<div class="menu">
-			<p class="menu-txt">Menu</p>
+			<h3 class="menu-txt">MENU</h3>
 		</div>
 		<div class="row">
 			<div class="column center">
 				<div>
-					<p class="eggs-txt">CEREALS & FRUIT</p>
+					<p class="fish-txt">CEREALS & FRUIT</p>
 					<div>
 						<p1 class> FRENCH TOAST & FRUIT...10 </p1>
 					</div>
@@ -351,7 +350,7 @@
 				</div>
 			</div>
 <!-- Je kanker moeder dit is een note zodat je weet wat de rechter kanker dinges is -->
-			<div class="column center">
+			<div class="column centertext">
 				<div class="fish">
 					<p class="fish-txt">FISH</p>
 				</div>
