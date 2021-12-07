@@ -9,8 +9,8 @@
           <ul class="list-group center">
             <h4>Met ingang vanaf 25 september 2021 gaan de nieuwste maatregelen van start.</h4>
             <h4>Met elke persconferentie zijn er weer nieuwe veranderen en ook ditmaal zijn er weer veranderingen. </h4>
-            <p1>Met ingang vanaf 25 september 2021 moeten wij weer de nieuwe maatregelen gaan handhaven. </p1> 
-            <p1>Deze maatregelen zijn als volgt:</p>
+            <p>Met ingang vanaf 25 september 2021 moeten wij weer de nieuwe maatregelen gaan handhaven. </p1> 
+            <p>Deze maatregelen zijn als volgt:</p>
           </ul>
         </div>
         <div id="contact-map">

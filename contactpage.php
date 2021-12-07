@@ -23,7 +23,7 @@
             <p1>+ 31 20 737 0280</p1>
             <p1>hello@georgemarina.nl</p1>
             <br>
-            <p2>OPEN DAILY FROM 11A.M. TILL LATE</p2>
+            <button type="button" class="btn btn-dark">SEND US AN EMAIL</button>
           </ul>
         </div>
         <div id="contact-map">
@@ -38,6 +38,7 @@
           </ul>
         </div>
       </div>
+      <div class="center">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
