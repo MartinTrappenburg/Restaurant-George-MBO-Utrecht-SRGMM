@@ -26,7 +26,7 @@
   <br>
   <input type="checkbox" name="agree1" id="" required>Ik accepteer de privacy overeenkomst</input> <br>
   <input type="checkbox" name="agree2" id="" required>Ik accepteer de algemene voorwaarden</input><br>
-  <input type="checkbox" name="agree3" id="">Ik wil de nieuwsbrief ontvangen</input>
+  <input type="checkbox" name="agree2" id="" required>Ik ga er mee akkoord dat ik uiterlijk 24 uur van te voren mijn diesnt kan annuleren in "Mijn Dashboard"</input><br>
   <br>
   <br>
   <button type="button" class="btn btn-dark">Reserveer!</button>
