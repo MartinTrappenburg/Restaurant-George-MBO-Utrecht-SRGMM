@@ -17,12 +17,12 @@ if (empty($email) || empty($password)) {
 
     // var_dump((bool) mysqli_num_rows($result));
 
-    if (!mysqli_num_rows($result)) {
-        // E-mailadres onbekend...
-        header("Location: ./index.php?content=message&alert=email-unknown");
-    } else {
+  if (!mysqli_num_rows($result)) {
+    // E-mailadres onbekend...
+    header("Location: ./index.php?content=message&alert=email-unknown");
+  } else {
+    $record = mysqli_fetch_assoc($result);
 
-        $record = mysqli_fetch_assoc($result);
 
         // var_dump((bool) $record["activated"]);
 
