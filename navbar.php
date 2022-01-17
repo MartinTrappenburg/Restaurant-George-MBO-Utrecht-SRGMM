@@ -40,9 +40,9 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item <?php echo ($active == "reserveren") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=reserveren">RESERVEREN</a>
-      </li>
+    <li class="nav-item nav_padding">
+                    <a class="nav-link" href="./index.php?content=reservation" >RESERVATION</a>
+                </li>
       <li class="nav-item <?php echo ($active == "coronabeleid") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=coronabeleid">CORONABELEID</a>
       </li>
