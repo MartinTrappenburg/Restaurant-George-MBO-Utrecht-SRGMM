@@ -144,8 +144,6 @@
         }
 
       }
-      
-      
       // 3. Geef de gebruiker feedback met een alert dat het updaten is gelukt of niet en stuur dan door naar een andere pagina.
     } else {
       // foutmelding
