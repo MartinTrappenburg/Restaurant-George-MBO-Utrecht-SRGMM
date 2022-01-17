@@ -41,8 +41,5 @@
             <p3>WE HAVE THE SAME 'JE-NE-SAIS-QUOI' ON OUR MENU AS IN AMSTERDAM, WITH EVEN MORE OF OUR BEST DISHES ADDED!</p3>
             <h2>SEE WHAT WE HAVE TO OFFER ON OUR MENU</h2>
 			</div>
-			<div class="center">
-				<img src="./img/georgemarinafood.gif">
-			</div>
    </body>
 </html>
