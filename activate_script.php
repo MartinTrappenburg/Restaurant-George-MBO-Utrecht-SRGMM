@@ -20,9 +20,8 @@
   $teacher = (isset($_POST["teacher"]))? $_POST["teacher"]: "";
   $lessonseries = (isset($_POST["lessonseries"]))? $_POST["lessonseries"]: "";
 
-  
   if (empty($_POST["password"]) || empty($_POST["passwordCheck"])) {
-    header("Location: ./index.php?content=message&alert=password-empty&email=$email&pwh=$pwh");
+    header("Location: ./index.php?content=message&alert=password-empty&email=$id&pwh=$pwh");
   } 
   elseif (empty($_POST["firstname"]) || empty($_POST["lastname"]) || empty($_POST["mobile"])) {
     header("Location: ./index.php?content=message&alert=credentials-empty&email=$email&pwh=$pwh");
