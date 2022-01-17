@@ -20,7 +20,6 @@ if (empty($email) || empty($password)) {
     // E-mailadres onbekend...
     header("Location: ./index.php?content=message&alert=email-unknown");
   } else {
-
     $record = mysqli_fetch_assoc($result);
 
     // var_dump((bool) $record["activated"]);
